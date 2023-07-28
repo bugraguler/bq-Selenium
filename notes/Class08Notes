@@ -1,0 +1,41 @@
+Class08Notes
+
+Implicit wait:
+Will be applied for findElement method
+it waits until locate the element    **yani sadece element locate ederken lazım olur
+
+Explicit wait for WebDriver Wait:
+is used to tell the webdriver to wait for a certain condition before **bu aşırı kapsamlı bir waittir class11rightclik örneğine bak
+throwing an exception for a specified condition
+
+Explicit wait work with ExpectedConditions class and waits until certain conditions are
+met or the given time is achieved
+
+Fluent Wait --> global wait
+it used to tell webdriver to certain condition as well as its frequency
+before throwing an exception
+
+Implicit wait -- waits to locate the element
+Explicit wait -- wait until certain condition
+Fluent wait -- sets timeouts, polling and ignores needed exceptions
+
+WebTables
+WebTables are elements on the webPage , which are constructed by having rows and columns
+
+Types of WebTables:
+1. Static webtable
+2. Dynamic webtable
+
+WebTabels consist of different sections or parts:
+<table>
+    <thead>
+            <tr>
+                <th> </th> -- column data or heading
+            <tr>
+    <thead>
+    <tbody>
+                <tr>
+                    <td> </td> -- table data
+                <tr>
+    <tbody>
+<table>

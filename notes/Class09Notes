@@ -1,0 +1,10 @@
+Class09Notes
+
+Tables divided into several pages, the navigation bar is called PAGINATION
+
+***BAŞTAN 03:00 KADAR TABLE İLE İLGİLİ BİR ÖRNEK ÇÖZÜLDÜ! SYNTAX HRM SAYFASI HATA VERDİĞİ İÇİN SADECE İZLENDİ.
+
+An HTML table consists of one <table> element and one or more <tr>, <th>, and <td> elements.
+The <tr> element defines a table row, the <th> element defines a table header, and the <td> element defines a table cell.
+
+Calenders - Date pickers

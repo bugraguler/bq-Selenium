@@ -1,0 +1,46 @@
+Class10Notes
+
+Keys.TAB  Keys.ENTER  bunlar bizim id password yazdıktan sonra kullanabileceğimiz kısa kodlar
+
+How to handle Calenders:
+1.Click on the calender
+2.locate the month and get the text
+3.İf the desired text is not visible to us
+    we will keep clicking on next and keep updating the text of the month
+4.As soon as we found our desired month --> grab all the cells from table
+5.Loop through the cells
+6.Once the cell value is matched with our condition -->click on the matched date
+
+
+
+*** Screen Shots ***
+
+Why do we need screenshots in testing?
+It is very important to take screenshots in testing in order to prove that our test case covered certain functionality
+
+In selenium in order to take a SS we will be usin TakeScreenShor interface
+
+TakesScreenShot is an Interface.
+To use it we need to do DownCasting!!!
+
+/*
+
+        TakesScreenshot ts=(TakesScreenshot)driver;
+        File srcFile = ts.getScreenshotAs(OutputType.FILE); //the screenShot is taken on this step
+        try {
+            FileUtils.copyFile(srcFile,new File("screenShots/practiceSyntax/table.png"));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+*/
+
+
+*** Actions Class ***
+is given by selenium to capture keyboard and mouse events such as;
+move to element
+drag and drop
+double click
+right click
+
+

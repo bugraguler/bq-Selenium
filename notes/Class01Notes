@@ -1,0 +1,70 @@
+Class01Notes
+
+What is software testing?
+--identify the correctness and quality of the application
+
+How many ways can we actually test?
+--manuel
+--automation
+
+When do we go for automation?
+--after manual testing is passed?
+--when environment is stable
+--analyze our test suite and choose our automation tools
+
+What automation tools do we know about?
+--Selenium,TestNG, Cucumber, Katalon Studio, UFT/QTP
+
+Level of Testing
+--Unit testing - developers do it
+--Integration testing
+--Acceptance testing - clients do it
+--System testing - managers do it
+
+Types of Testing?
+--functional testing
+--non functional testing
+       Performans testing; How the system work under the specifiek workload
+       Security testing; İf it is hackable or not
+
+What is Selenium?
+--a set of tools which helps us to automate web applications
+--it is mainly used to perform functional testing
+
+Selenium compenents:
+Selenium IDE -> integrated development environment
+Selenium Grid -> Firefox plugin
+Selenium Webdriver
+Selenium RC -> Remote Control
+
+What is selenium webdriver?
+Open source automation tool which allows us to perform actions on a web applications
+WebDriver is an Interface
+
+Advantages of Selenium Webdriver:
+-- Open source
+-- Works with different browsers and supports cross browsing testing
+-- Works with different languages -> Java,Javascript,Ruby,Python
+-- Operation system independent -> iOS, Windows, Linux
+
+Disadvantages of Selenium WebDriver:
+-- Cannot test desktop applications
+-- No technical support (open source)
+-- No build in reports - no feed back -
+-- We can not test captcha,images or videos
+
+get() vs navigate()
+-- Navigate can go back and forward and refresh
+-- get() will wait for the page to fully load , whereas navigate() will not
+-- get() will not keep the history of the browser whereas navigate() will
+
+close() vs quit()
+-- close() will close the current tab
+-- quit() will quit the whole browser //terminates the driver
+
+fullscreen() vs maximize()
+-- maximize() will maximize the browser and you will still be able to see the control panel(forward,bookmarks,bac etc)
+-- fullscreen() will maximize the whole application
+
+
+
